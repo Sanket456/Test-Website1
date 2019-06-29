@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Responsive Web Page Testing</title>
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+  <link rel="stylesheet" type="text/css" href="style.css">
+  <link href='https://fonts.googleapis.com/css?family=Oxygen' rel='stylesheet'>
+</head>
+<body>
+  <header>
+    <nav id="header-nav" class="navbar navbar-default">
+      <div class="container">
+
+
+        <div class="navbar-header">
+          <a href="index.html" class="pull-left visible-md visible-lg">
+            <div id="logo-img" alt="Logo Image"> </div>
+          </a>
+          <div class="navbar-brand">
+            <a href="index.html"><h1>David Chu's China Bristo</h1></a>
+            <p>
+              <img src="star-k-logo.png" alter="Kosher Certification">
+              <span>Kosher Certification</span>
+            </p>
+          </div>
+
+
+          <button class="navbar-toggle collapsed" type="button" data-toggle="collapse" data-target="#collapsable-nav" aria-expanded="false">
+              <span class="sr-only">Toggle Navigation</span>
+              <span class="icon-bar"></span>
+              <span class="icon-bar"></span>
+              <span class="icon-bar"></span>
+          </button>
+        </div>
+
+        <div id="collapsable-nav" class="collapse navbar-collapse">
+          <ul id="nav-list" class="nav navbar-nav navbar-right">
+            <li class="visible-xs active">
+              <a href="index.html">
+                <span class="glyphicon glyphicon-home"></span><br class="hidden-xs">Home</a>
+            </li>
+            <li>
+              <a href="menu-catogeries.html">
+                <span class="glyphicon glyphicon-cutlery"></span><br class="hidden-xs">Menu</a>
+            </li>
+            <li>
+              <a href="#">
+                <span class="glyphicon glyphicon-info-sign"></span><br class="hidden-xs">About</a>
+            </li>
+            <li>
+              <a href="#">
+                <span class="glyphicon glyphicon-certificate"></span><br class="hidden-xs">Awards</a>
+            </li>
+            <li id="phone" class="hidden-xs">
+              <a href="tel:410-602-5008">
+                <span>410-602-5008</span></a><div>*We Deliver</div>
+            </li>
+          </ul>
+        </div>
+
+        </div>
+      </nav> 
+  </header>
+  
+  <div id="main-content" class="container"> 
+   <div class="jumbotron">
+     <img src="jumbotron_768.jpg" alt="Picture of Resturant" class="img-responsive visible-xs">
+   </div><!--Central Image-->
+
+   <div id="home-tiles" class="row">
+    <div class="col-md-4 col-sm-6 col-xs-12">
+      <a href="menu-catogeries.html"><div id="menu-tiles"><span>Menu</span></div></a>
+    </div>
+    <div class="col-md-4 col-sm-6 col-xs-12">
+      <a href="single-catogeries.html"><div id="special-tiles"><span>Specials</span></div></a>
+    </div>
+    <div class="col-md-4 col-sm-6 col-xs-12">
+      <a href="https://goo.gl/maps/eLNjfruoc2toXvvq7"><div id="map-tiles">
+        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d224348.19943411957!2d77.14169225657679!3d28.52647308993767!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0xcd7e60fcf29709cc!2sPark+Inn+by+Radisson+New+Delhi+IP+Extension!5e0!3m2!1sen!2sin!4v1561051458976!5m2!1sen!2sin" width="600" height="450" frameborder="0" style="border:0" allowfullscreen></iframe>
+        <span>Map</span>
+      </div>
+     </a>
+    </div><!--Column wise categorisation-->
+  </div><!--Home-tile-->
+
+  <footer class="panel-footer">
+    <div class="container">
+      <div class="row">
+        <section id="hours" class="col-sm-4">
+          <span>Hours: </span><br>
+          Sun-Thrus: 11:15am - 10:00am<br>
+          Saturday Closed
+          <hr class="visible-xs">
+        </section>
+
+        <section id="address" class="col-sm-4">
+          <span>Address: </span><br>
+          Delhi Cannought Place 2476/13<br>
+          <p>* Delivery area within 10Km, with minimum order of 300 Rs plus tax charge for all the deliveries. </p>
+          <hr class="visible-xs">
+        </section>
+
+        <section id="testimonials" class="col-sm-4">
+          <p>*  Wonderful Food good delivery </p>
+          <p>*  Friendly Staff and goodserving</p>
+          <hr class="visible-xs">
+        </section>
+      </div>
+      <div class="text-center">&copy; Copyright David Chu's China Bristo 2019</div>                               
+    </div>
+
+  </footer>
+
+
+</body>
+</html>
